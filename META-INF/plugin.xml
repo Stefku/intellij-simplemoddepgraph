@@ -1,0 +1,41 @@
+<idea-plugin version="2">
+	<id>de.docksnet.moddep</id>
+	<name>Simple Module Dependency Graph</name>
+	<version>1.0.0</version>
+	<vendor>Stefan Zeller</vendor>
+
+	<description><![CDATA[
+      This very simple plugin generates the module dependencies as source for PlantUML and GraphML. The latter can be viewed with http://www.yworks.com/en/products_yed_about.htm.
+      ]]></description>
+
+	<change-notes>
+	</change-notes>
+
+	<!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
+	<idea-version since-build="107.105"/>
+
+	<!-- please see http://confluence.jetbrains.net/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+		   on how to target different products -->
+	<!-- uncomment to enable plugin in all products
+	  <depends>com.intellij.modules.lang</depends>
+	  -->
+
+	<application-components>
+		<!-- Add your application components here -->
+	</application-components>
+
+	<project-components>
+		<!-- Add your project components here -->
+	</project-components>
+
+	<actions>
+		<!-- Add your actions here -->
+		<action id="ModDepGraph.MyAction" class="de.docksnet.moddep.MyActionClass" text="Simple Module Dependency Graph">
+			<add-to-group group-id="AnalyzeActions" anchor="last"/>
+		</action>
+	</actions>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<!-- Add your extensions here -->
+	</extensions>
+</idea-plugin>
