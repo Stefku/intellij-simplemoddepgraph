@@ -5,7 +5,8 @@
 	<vendor>Stefan Zeller</vendor>
 
 	<description><![CDATA[
-      This very simple plugin generates the module dependencies as source for PlantUML and GraphML. The latter can be viewed with http://www.yworks.com/en/products_yed_about.htm.
+      This very simple plugin generates the module dependencies as source for PlantUML and GraphML. You have to copy and paste the source into
+      a viewer like http://www.yworks.com/en/products_yed_about.htm for GraphML.
       ]]></description>
 
 	<change-notes>
